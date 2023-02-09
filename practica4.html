@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            background-color: antiquewhite;
+            padding: 10px;
+            text-align: center;
+            color: black;
+            font-size: 30px;
+            text-shadow: 1px 1px 20px blue;
+        }
+        nav{
+            background-color: aquamarine;
+            width: 30%;
+            height: 300px;
+            padding: 20px;
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+        }
+        article{
+            background-color: aquamarine;
+            float: left;
+            width: 70%;
+            padding: 20px;
+            height: 300px;
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: cadetblue;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+        @media(max-width: 600px){
+            nav, article{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        Top 5 Animales mas fachas
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="https://i.quotev.com/usc36mvmdrda.jpg"; target="_blank">Numero 1</a></li>
+                <li><a href="https://preview.redd.it/bw1c1zk5yi331.jpg?auto=webp&s=e4effdc1981dcac40bfda587815c6b5cd08ce752"; target="_blank">Numero 2</a></li>
+                <li><a href="https://img.ifunny.co/images/661196e0a6f193aa0b3ba83ea30474214c42fbd6d7a5fc1fac533db6fb4be5df_1.jpg"; target="_blank">Numero 3</a></li>
+            </ul>
+        </nav>
+        <article>
+            <p>
+                Pato es el nombre común para ciertas aves de la familia Anatidae, principalmente de la subfamilia Anatinae y dentro de ella del género Anas. No son un grupo monofilético, ya que no se incluyen los cisnes ni los gansos. La mayoría de las razas descienden del ánade real, que fue domesticado en el sur de China.
+            </p>
+        </article>
+    </section>
+    <footer>
+        <p>
+            &copy; 2023
+        </p>
+    </footer>
+</body>
+</html>
