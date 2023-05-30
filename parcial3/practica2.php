@@ -1,15 +1,12 @@
 <?php
 $nombre = $_GET["Nombre"];
-echo "Nombre: ".$nombre;
+echo "Nombre: ".$nombre. "<br><br>";
 
 $edad = $_GET["Edad"];
 echo "Edad: ".$edad. "<br><br>";
 
 $escuela = $_GET["Escuela"];
 echo "Escuela: ".$escuela. "<br><br>";
-
-$nombre = $_GET["Nombre"];
-echo "Nombre: ".$nombre. "<br><br>";
 
 $Fecha_ingreso = $_GET["fecha_ingreso"];
 echo "fecha ingreso: ".$Fecha_ingreso. "<br><br>";
