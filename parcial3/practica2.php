@@ -19,16 +19,18 @@ if($edad >= 18){
 }else{
     "Es menor de edad" . "<br><br>";
 }
+switch ($escuela) {
+    case 'CETis107':
+        echo "<div style='background-color: red;'> CETIS107 </div>" . "<br><br>";
+        break;
 
-if($escuela == "CETis107"){
-    echo "<div style='background-color: red;'> CETIS107 </div>" . "<br><br>";
-}
-if($escuela == "CBTis224"){
-    echo "<div style='background-color: red;'> CBTis224 </div>" . "<br><br>";
-}
-if($escuela == "COBAES"){
-    echo "<div style='background-color: red;'> COBAES </div>" . "<br><br>";
-}
+    case 'CBTis224':
+        echo "<div style='background-color: red;'> CBTis224 </div>" . "<br><br>";
+        break;
 
+    case 'COBAES':
+        echo "<div style='background-color: red;'> COBAES </div>" . "<br><br>";
+        break;
+}
 
 ?>
