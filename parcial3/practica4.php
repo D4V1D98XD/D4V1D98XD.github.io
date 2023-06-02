@@ -15,70 +15,94 @@
     $Pregunta10 = $_POST["pregunta10"];
 
 
-    echo $Nombre . "<br><br>";
+    echo "Nombre de Alumno:" . $Nombre . "<br><br>";
 
     if($Pregunta1 == "c"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
-        echo "<img src= 'correcta.png '";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: C". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta2 == "b"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: B". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta3 == "c"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: C". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta4 == "d"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: D". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta5 == "c"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: C". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta6 == "c"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: C". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta7 == "c"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: C". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta8 == "b"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: B". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta9 == "b"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: B". "<br><br>";
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
     if($Pregunta10 == "d"){
         $Calificacion ++;
         echo "Correcto". "<br><br>";
+        echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
         echo "Incorrecto, respuesta correcta: D" ;
+        echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
 
-    
-
+    if($Calificacion > 5){
+        echo "Aprobaste". "<br><br>";
+        echo "<img src= 'feliz.png'>". "<br><br>";
+    }else{
+        echo "Reprobaste". "<br><br>";
+        echo "<img src= 'triste.png'>". "<br><br>";
+    }
 ?>
