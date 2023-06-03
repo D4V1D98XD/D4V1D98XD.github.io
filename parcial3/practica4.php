@@ -94,15 +94,17 @@
         echo "Correcto". "<br><br>";
         echo "<img src= 'correcta.png'>". "<br><br>";
     }else{
-        echo "Incorrecto, respuesta correcta: D" ;
+        echo "Incorrecto, respuesta correcta: D". "<br><br>" ;
         echo "<img src= 'incorrecta.png'>". "<br><br>";
     }
+
+    echo "Tu Calificación es:" . $Calificacion . "<br><br>";
 
     if($Calificacion > 5){
         echo "Aprobaste". "<br><br>";
         echo "<img src= 'feliz.png'>". "<br><br>";
     }else{
         echo "Reprobaste". "<br><br>";
-        echo "<img src= 'triste.png'>". "<br><br>";
+        echo "<img src= 'triste.jpg'>". "<br><br>";
     }
 ?>
