@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego del ahorcado</title>
+    <title>Juego del Decapitado</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
@@ -56,7 +56,7 @@
             <input type="hidden" value="<?php echo $vidas ?>" name="vidas">
 
             <div class="row">
-                <h1>Juego del Ahorcado</h1><hr>
+                <h1>Juego del Decapitado</h1><hr>
                 <h3>Nombre del jugador: <?php echo $nombre; ?></h3>
                 <h4>Número de vidas: <?php echo $vidas; ?></h4>
                 <?php
