@@ -18,7 +18,7 @@
                     <?php
                     for ($i=0; $i <16 ; $i++) { 
                         $numero = rand(1,54);
-                        echo "<div class = 'col-3 p-0'><img src = 'fotos_loteria/".$numero.".jpeg' class='img-thumbnail' width='25%'></div>";
+                        echo "<div class = 'col-3 p-0'><img src = 'fotos_loteria/".$numero.".jpeg' class='img-thumbnail'></div>";
                     }
                     ?>
                 </div>
@@ -28,13 +28,11 @@
                     <?php
                     for ($i=0; $i <16 ; $i++) { 
                         $numero = rand(1,54);
-                        echo "<div class = 'col-3 p-0'><img src = 'fotos_loteria/".$numero.".jpeg' class='img-thumbnail' width='25%'></div>";
+                        echo "<div class = 'col-3 p-0'><img src = 'fotos_loteria/".$numero.".jpeg' class='img-thumbnail'></div>";
                     }
                     ?>
                 </div>
             </div>
-
-
         </div>
         </form>
     </div>
